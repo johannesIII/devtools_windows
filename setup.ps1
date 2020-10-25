@@ -18,3 +18,6 @@ ECHO Setting up Google login!
 
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File $gcpw
 
+ECHO Setting windows customization.
+
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\settings.ps1

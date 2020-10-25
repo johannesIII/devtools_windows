@@ -1,4 +1,5 @@
-ECHO Configure chocolatey
+ECHO You have configured Basic-setup!
+ECHO Preparing Chocolatey
 
 choco feature enable -n allowGlobalConfirmation
 
@@ -21,3 +22,5 @@ choco install microsoft-windows-terminal
 choco install immunet
 
 choco feature disable -n allowGlobalConfirmation
+
+ECHO Finished! 

@@ -1,4 +1,5 @@
-ECHO Configure chocolatey
+ECHO You have configured Basic-setup!
+ECHO Preparing Chocolatey
 
 choco feature enable -n allowGlobalConfirmation
 
@@ -12,3 +13,5 @@ choco install office365business
 choco install immunet
 
 choco feature disable -n allowGlobalConfirmation
+
+ECHO Finished! 
